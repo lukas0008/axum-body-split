@@ -1,0 +1,13 @@
+[package]
+name = "axum-body-split"
+version = "0.1.0"
+edition = "2024"
+description = "A library to use multiple FromRequest extractors in axum"
+license = "MIT OR Apache-2.0"
+authors = ["lukas0008 <lukzaj333@gmail.com>"]
+readme = "../Readme.md"
+repository = "https://github.com/lukas0008/axum-body-split"
+
+[dependencies]
+axum = "0.8.1"
+http-body-util = "0.1.3"

@@ -1,0 +1,11 @@
+[package]
+name = "basic"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.1"
+axum-body-split = { path = "../../axum-body-split" }
+reqwest = "0.12.14"
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.44.1", features = ["full"] }

@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["axum-body-split", "examples/basic", "examples/state"]
